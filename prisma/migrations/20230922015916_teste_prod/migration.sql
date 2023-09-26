@@ -20,5 +20,12 @@ CREATE TABLE "cornell" (
     "resume" TEXT NOT NULL
 );
 
+-- CreateTable
+CREATE TABLE "FlashCards" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "materia" TEXT NOT NULL,
+    "resume" TEXT NOT NULL
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "users_email_key" ON "users"("email");
